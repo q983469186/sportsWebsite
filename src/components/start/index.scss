@@ -1,0 +1,28 @@
+.start-page{
+    .bg1{
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-width: 1420px;
+    }
+    .recommend{
+        .item{
+            height: calc( 100vh - 200px);
+            margin-bottom: 200px;
+            color: #000;
+            background-color: pink;
+            &:hover{
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
